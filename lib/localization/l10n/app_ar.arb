@@ -1,0 +1,20 @@
+{
+"next": "التالي",
+"coffeeFirstThenTalk": "القهوة اولا ثم الحديث !",
+"justOne": "رشفة ",
+"sip": "واحدة",
+"andFeelGood": " فقط لتشعر بالسعادة",
+"so": "لأن ",
+"chafe": "شفة",
+"willMakeYouSmile": " سيجعلك تبتسم :)",
+"login": "تسجيل الدخول",
+"register": "تسجيل الحساب",
+"createAccount": "انشاء الحساب",
+"username": "اسم المستخدم",
+"phone": "رقم الموبايل",
+"password": "كلمة المرور",
+"pleaseEnterPassword": "الرجاء ادخال كلمة المرور",
+"atLeastPasswordContatinEightCharacters": "يجب ان تحتوي 8 احرف على الاقل",
+"pleaseEnterYourUsername": "الرجاء ادخال اسم الحساب"
+
+}
