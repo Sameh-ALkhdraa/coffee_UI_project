@@ -4,7 +4,7 @@ import 'package:mini_ui_project/core/widget/common_text_from_field.dart';
 import 'package:mini_ui_project/core/widget/login_button.dart';
 import 'package:mini_ui_project/features/auth/screens/user_auth/auth_widget/create_account_button.dart';
 import 'package:mini_ui_project/features/auth/screens/user_auth/user_auth_screens/register_screen.dart';
-import 'package:mini_ui_project/features/auth/screens/user_auth/user_auth_screens/widget/common_auth_widget.dart';
+import 'package:mini_ui_project/features/auth/screens/user_auth/auth_widget/common_auth_widget.dart';
 import 'package:mini_ui_project/features/main_layout/main_layout.dart';
 
 class LoginScreen extends StatefulWidget {
