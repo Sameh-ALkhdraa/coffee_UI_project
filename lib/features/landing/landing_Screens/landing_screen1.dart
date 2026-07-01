@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/core/widget/coffee_plate_widget.dart';
 import 'package:mini_ui_project/core/widget/translate_text.dart';
-import 'package:mini_ui_project/features/landing/landing_Screens/landing_screen2.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_screen_style.dart';
 import 'package:mini_ui_project/localization/l10n/app_localization.dart';
 import 'dart:math';
@@ -83,7 +83,7 @@ class LandingScreen1 extends StatelessWidget {
   Widget landingScreen1(BuildContext context){
     return standartLandingScreen(
             context: context,
-            page: LandingScreen2(),
+            namedPage: AppRoutes.landingScreen2,
             coffeeDesign: coffeeDesign(), 
             landingDescribe: translatedText(context: context, text: AppLocalizations.of(context)!.coffeeFirstThenTalk, color: mediumGreen),
             stepperIndex: 0);

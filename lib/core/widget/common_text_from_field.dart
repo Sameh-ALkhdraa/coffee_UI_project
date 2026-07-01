@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/features/auth/Validations/text_form_field_validate.dart';
 import 'package:mini_ui_project/localization/l10n/app_localization.dart';
-  TextEditingController loginEmailController = TextEditingController();
+  TextEditingController loginUsernameController = TextEditingController();
   TextEditingController loginPasswordController = TextEditingController();
     bool isHidden = true;
     
@@ -14,11 +14,11 @@ Widget usernameTextFormField({required BuildContext context}){
           borderRadius: BorderRadius.circular(12)
         )
       ),
-    controller: loginEmailController,
+    controller: loginUsernameController,
     validator:(value){
                     
       if(!TextFormFieldValidate.emptyValidation(value)){
-        loginEmailController.text = "";
+        loginUsernameController.text = "";
         return AppLocalizations.of(context)!.pleaseEnterYourUsername;
       }
       else{

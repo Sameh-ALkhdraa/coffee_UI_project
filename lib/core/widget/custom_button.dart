@@ -5,8 +5,9 @@ Widget standardButtonDesign({
   required String buttonName,
   required Color buttonColor,
   required Color textColor,
-  required Widget page,
-  GlobalKey<FormState>? loginKey
+  required String namedPage,
+  GlobalKey<FormState>? loginKey,
+  Object? argument
 
 }){
   return InkWell(
@@ -16,13 +17,7 @@ Widget standardButtonDesign({
           return;
         }
       }
-
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (_) => page,
-        ),
-      );
+    Navigator.pushReplacementNamed(context, namedPage, arguments: argument);
     },
     child: Container(
       decoration: BoxDecoration(

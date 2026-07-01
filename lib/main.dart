@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
+import 'package:mini_ui_project/features/auth/screens/admin_auth/admin_login_screen.dart';
+import 'package:mini_ui_project/features/auth/screens/user_auth/user_auth_screens/login_screen.dart';
 import 'package:mini_ui_project/features/landing/landing_Screens/landing_screen1.dart';
 import 'package:mini_ui_project/localization/l10n/app_localization.dart';
 
@@ -19,7 +22,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      locale: Locale("en"),
+      locale: Locale("ar"),
 
       supportedLocales: [
         Locale("en"),
@@ -32,6 +35,7 @@ class MyApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
       ],
 
+      onGenerateRoute: onGenerateRoute,
       home: const MyHomePage(),
     );
   }
@@ -61,6 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
               LandingScreen1(),
+              // LoginScreen()
               // AdminLoginScreen()
           ],
         ),

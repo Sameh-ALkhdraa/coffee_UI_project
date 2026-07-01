@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/core/widget/common_text_from_field.dart';
 import 'package:mini_ui_project/core/widget/custom_button.dart';
 import 'package:mini_ui_project/features/auth/screens/user_auth/user_auth_screens/login_screen.dart';
@@ -37,7 +38,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             standardButtonDesign(
               context: context,
               buttonName: AppLocalizations.of(context)!.register,
-              page: LoginScreen(),
+              namedPage: AppRoutes.loginScreen,
               buttonColor: darkGreen,
               textColor: whiteButtonTextColor,
               loginKey: _registerKey

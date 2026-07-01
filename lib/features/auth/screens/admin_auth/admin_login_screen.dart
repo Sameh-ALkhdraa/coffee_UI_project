@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/core/widget/common_text_from_field.dart';
 import 'package:mini_ui_project/core/widget/login_button.dart';
-import 'package:mini_ui_project/features/bean_details_screen.dart/bean_details_screen.dart';
 import 'package:mini_ui_project/features/auth/widgets/common_auth_widgets.dart';
 
 class AdminLoginScreen extends StatefulWidget {
@@ -59,7 +59,7 @@ class _AdminLoginScreenState extends State<AdminLoginScreen> {
           context
         ),
         SizedBox(height: 40,),
-        loginButtonDesign(context: context, page: BeanDetailsScreen(), loginKey: loginKey),
+        loginButtonDesign(context: context, page: AppRoutes.adminDataScreen, loginKey: loginKey, argument: loginUsernameController.text),
       ],
           ),
     );

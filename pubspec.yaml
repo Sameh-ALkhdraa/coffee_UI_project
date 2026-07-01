@@ -71,6 +71,8 @@ flutter:
     - assets/images/secondLandingLogo.png
     - assets/images/thirdLandingLogo.png
     - assets/images/auth_coffee_plate.png
+    - assets/images/person.jpg
+    - assets/images/game-icons_coffee-beans.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

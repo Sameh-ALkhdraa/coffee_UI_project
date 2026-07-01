@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
-import 'package:mini_ui_project/features/landing/landing_Screens/landing_screen3.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_image_logo.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_screen_style.dart';
 import 'package:mini_ui_project/localization/l10n/app_localization.dart';
@@ -62,7 +62,7 @@ Widget specifiedText(BuildContext context){
 Widget landingScreen2(BuildContext context){
   return standartLandingScreen(
     context: context,
-    page: LandingScreen3(),
+    namedPage: AppRoutes.landingScreen3,
     coffeeDesign: standardImage("assets/images/secondLandingLogo.png"),
     landingDescribe: specifiedText(context), 
     stepperIndex: 1);

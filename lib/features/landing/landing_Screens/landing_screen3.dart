@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
+import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/core/widget/translate_text.dart';
-import 'package:mini_ui_project/features/auth/screens/user_auth/user_auth_screens/login_screen.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_image_logo.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_screen_style.dart';
 import 'package:mini_ui_project/localization/l10n/app_localization.dart';
@@ -46,7 +46,7 @@ class LandingScreen3 extends StatelessWidget {
   Widget landingScreen3(BuildContext context){
     return standartLandingScreen(
       context: context,
-      page: LoginScreen(),
+      namedPage: AppRoutes.loginScreen,
       coffeeDesign: standardImage("assets/images/thirdLandingLogo.png"), 
       landingDescribe: specifiedText(context), 
       stepperIndex: 2
