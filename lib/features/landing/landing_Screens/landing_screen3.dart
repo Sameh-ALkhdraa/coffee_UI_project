@@ -5,7 +5,6 @@ import 'package:mini_ui_project/core/routing/app_routes.dart';
 import 'package:mini_ui_project/core/widget/translate_text.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_image_logo.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_screen_style.dart';
-import 'package:mini_ui_project/localization/l10n/app_localization.dart';
 
 
 
