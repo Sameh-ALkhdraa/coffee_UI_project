@@ -62,7 +62,7 @@ Widget specifiedText(BuildContext context){
 Widget landingScreen2(BuildContext context){
   return standartLandingScreen(
     context: context,
-    namedPage: AppRoutes.landingScreen3,
+    page: AppRoutes.landingScreen3,
     coffeeDesign: standardImage("assets/images/secondLandingLogo.png"),
     landingDescribe: specifiedText(context), 
     stepperIndex: 1);

@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:mini_ui_project/core/config/app_config.dart';
+import 'package:mini_ui_project/core/languages/app_localization_extension.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
 import 'package:mini_ui_project/core/routing/app_routes.dart';
-import 'package:mini_ui_project/core/widget/coffee_plate_widget.dart';
+import 'package:mini_ui_project/core/widget/auth_widget/coffee_plate_widget.dart';
 import 'package:mini_ui_project/core/widget/translate_text.dart';
 import 'package:mini_ui_project/features/landing/widget/standard_screen_style.dart';
-import 'package:mini_ui_project/localization/l10n/app_localization.dart';
 import 'dart:math';
+
+import 'package:provider/provider.dart';
 
  Widget decorate(final double size) {
     final diamondSize = size * 0.3;
@@ -57,9 +60,24 @@ import 'dart:math';
   }
 
 
+class LandingScreen1 extends StatefulWidget {
+  const LandingScreen1({super.key});
 
-class LandingScreen1 extends StatelessWidget {
+  @override
+  State<LandingScreen1> createState() => _LandingScreen1State();
+}
 
+class _LandingScreen1State extends State<LandingScreen1> {
+  
+  @override
+  void initState() {
+    super.initState();
+    final appConfig = Provider.of<AppConfig>(context, listen: false);
+    appConfig.setIsFirstTime(false);
+    // WidgetsBinding.instance.addPostFrameCallback((_) {
+    //   context.read<AppConfig>().setIsFirstTime(false);
+    // });
+  }
   Widget coffeeDesign(){
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -81,15 +99,14 @@ class LandingScreen1 extends StatelessWidget {
   }
 
   Widget landingScreen1(BuildContext context){
+
     return standartLandingScreen(
             context: context,
-            namedPage: AppRoutes.landingScreen2,
+            page: AppRoutes.landingScreen2,
             coffeeDesign: coffeeDesign(), 
-            landingDescribe: translatedText(context: context, text: AppLocalizations.of(context)!.coffeeFirstThenTalk, color: mediumGreen),
+            landingDescribe: translatedText(context: context, text: context.t.coffeeFirstThenTalk, color: mediumGreen),
             stepperIndex: 0);
   }
-
-  const LandingScreen1({super.key});
 
   @override
   Widget build(BuildContext context) {

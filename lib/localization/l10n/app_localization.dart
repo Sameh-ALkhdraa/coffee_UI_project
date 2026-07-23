@@ -137,13 +137,13 @@ abstract class AppLocalizations {
   /// No description provided for @chafe.
   ///
   /// In en, this message translates to:
-  /// **'Chafe'**
+  /// **'Chafe '**
   String get chafe;
 
   /// No description provided for @willMakeYouSmile.
   ///
   /// In en, this message translates to:
-  /// **' will make you smile :)'**
+  /// **'will make you smile :)'**
   String get willMakeYouSmile;
 
   /// No description provided for @login.
@@ -169,6 +169,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please enter password'**
   String get pleaseEnterPassword;
+
+  /// No description provided for @pleaseEnterPhoneNumber.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter phone number'**
+  String get pleaseEnterPhoneNumber;
 
   /// No description provided for @atLeastPasswordContatinEightCharacters.
   ///
@@ -199,6 +205,366 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Please enter your username'**
   String get pleaseEnterYourUsername;
+
+  /// No description provided for @myTotalBeans.
+  ///
+  /// In en, this message translates to:
+  /// **'My Total Beans'**
+  String get myTotalBeans;
+
+  /// No description provided for @search.
+  ///
+  /// In en, this message translates to:
+  /// **'search'**
+  String get search;
+
+  /// No description provided for @scanUserQR.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan user QR'**
+  String get scanUserQR;
+
+  /// No description provided for @addPoints.
+  ///
+  /// In en, this message translates to:
+  /// **'add points'**
+  String get addPoints;
+
+  /// No description provided for @submit.
+  ///
+  /// In en, this message translates to:
+  /// **'submit'**
+  String get submit;
+
+  /// No description provided for @saveChanges.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Changes'**
+  String get saveChanges;
+
+  /// No description provided for @logOut.
+  ///
+  /// In en, this message translates to:
+  /// **'Log Out'**
+  String get logOut;
+
+  /// No description provided for @negativeNumbersAreNotAllowed.
+  ///
+  /// In en, this message translates to:
+  /// **'Negative numbers are not allowed'**
+  String get negativeNumbersAreNotAllowed;
+
+  /// No description provided for @required.
+  ///
+  /// In en, this message translates to:
+  /// **'Required'**
+  String get required;
+
+  /// No description provided for @changesSavedSuccessfully.
+  ///
+  /// In en, this message translates to:
+  /// **'Changes saved successfully'**
+  String get changesSavedSuccessfully;
+
+  /// No description provided for @ok.
+  ///
+  /// In en, this message translates to:
+  /// **'Ok'**
+  String get ok;
+
+  /// No description provided for @loginFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Login Failed'**
+  String get loginFailed;
+
+  /// No description provided for @incorrectLoginInformation.
+  ///
+  /// In en, this message translates to:
+  /// **'The information you entered is incorrect.'**
+  String get incorrectLoginInformation;
+
+  /// No description provided for @goToLoginpage.
+  ///
+  /// In en, this message translates to:
+  /// **'login page'**
+  String get goToLoginpage;
+
+  /// No description provided for @hello.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello'**
+  String get hello;
+
+  /// No description provided for @cappuccino.
+  ///
+  /// In en, this message translates to:
+  /// **'Cappuccino'**
+  String get cappuccino;
+
+  /// No description provided for @price.
+  ///
+  /// In en, this message translates to:
+  /// **'Price'**
+  String get price;
+
+  /// No description provided for @addToCart.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Cart'**
+  String get addToCart;
+
+  /// No description provided for @size.
+  ///
+  /// In en, this message translates to:
+  /// **'Size'**
+  String get size;
+
+  /// No description provided for @hotDrink.
+  ///
+  /// In en, this message translates to:
+  /// **'Hot Drink'**
+  String get hotDrink;
+
+  /// No description provided for @coldDrink.
+  ///
+  /// In en, this message translates to:
+  /// **'Cold Drink'**
+  String get coldDrink;
+
+  /// No description provided for @coffeeBeans.
+  ///
+  /// In en, this message translates to:
+  /// **'Coffee beans'**
+  String get coffeeBeans;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @lightRoasted.
+  ///
+  /// In en, this message translates to:
+  /// **'Light Roasted'**
+  String get lightRoasted;
+
+  /// No description provided for @mediumRoasted.
+  ///
+  /// In en, this message translates to:
+  /// **'Medium Roasted'**
+  String get mediumRoasted;
+
+  /// No description provided for @darkRoasted.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark Roasted'**
+  String get darkRoasted;
+
+  /// No description provided for @bestCoffeeForYou.
+  ///
+  /// In en, this message translates to:
+  /// **'Best Coffee For You'**
+  String get bestCoffeeForYou;
+
+  /// No description provided for @findYourCoffee.
+  ///
+  /// In en, this message translates to:
+  /// **'Find Your Coffee'**
+  String get findYourCoffee;
+
+  /// No description provided for @favourite.
+  ///
+  /// In en, this message translates to:
+  /// **'favourites'**
+  String get favourite;
+
+  /// No description provided for @noFavouriteProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'No favourite products'**
+  String get noFavouriteProducts;
+
+  /// No description provided for @all.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get all;
+
+  /// No description provided for @espresso.
+  ///
+  /// In en, this message translates to:
+  /// **'Espresso'**
+  String get espresso;
+
+  /// No description provided for @americano.
+  ///
+  /// In en, this message translates to:
+  /// **'Americano'**
+  String get americano;
+
+  /// No description provided for @macchiato.
+  ///
+  /// In en, this message translates to:
+  /// **'Macchiato'**
+  String get macchiato;
+
+  /// No description provided for @collectMoreBeansToUnlockCoupons.
+  ///
+  /// In en, this message translates to:
+  /// **'Collect more beans to unlock coupons'**
+  String get collectMoreBeansToUnlockCoupons;
+
+  /// No description provided for @scanMe.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan Me'**
+  String get scanMe;
+
+  /// No description provided for @cubons.
+  ///
+  /// In en, this message translates to:
+  /// **'Cubons'**
+  String get cubons;
+
+  /// No description provided for @totalPrice.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Price'**
+  String get totalPrice;
+
+  /// No description provided for @noItemsInCart.
+  ///
+  /// In en, this message translates to:
+  /// **'No Items in Cart'**
+  String get noItemsInCart;
+
+  /// No description provided for @pay.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay'**
+  String get pay;
+
+  /// No description provided for @orderHistory.
+  ///
+  /// In en, this message translates to:
+  /// **'Order History'**
+  String get orderHistory;
+
+  /// No description provided for @delivery.
+  ///
+  /// In en, this message translates to:
+  /// **'Delivery'**
+  String get delivery;
+
+  /// No description provided for @inHouse.
+  ///
+  /// In en, this message translates to:
+  /// **'In-House'**
+  String get inHouse;
+
+  /// No description provided for @canceled.
+  ///
+  /// In en, this message translates to:
+  /// **'Canceled'**
+  String get canceled;
+
+  /// No description provided for @download.
+  ///
+  /// In en, this message translates to:
+  /// **'Download'**
+  String get download;
+
+  /// No description provided for @payFrom.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay from'**
+  String get payFrom;
+
+  /// No description provided for @creditCard.
+  ///
+  /// In en, this message translates to:
+  /// **'Credit Card'**
+  String get creditCard;
+
+  /// No description provided for @payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment'**
+  String get payment;
+
+  /// No description provided for @orderSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Order Success'**
+  String get orderSuccess;
+
+  /// No description provided for @visa.
+  ///
+  /// In en, this message translates to:
+  /// **'VISA'**
+  String get visa;
+
+  /// No description provided for @cardHolder.
+  ///
+  /// In en, this message translates to:
+  /// **'CARD HOLDER'**
+  String get cardHolder;
+
+  /// No description provided for @expires.
+  ///
+  /// In en, this message translates to:
+  /// **'EXPIRES'**
+  String get expires;
+
+  /// No description provided for @authorizedSignatureOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Authorized signature only.'**
+  String get authorizedSignatureOnly;
+
+  /// No description provided for @cardProperty.
+  ///
+  /// In en, this message translates to:
+  /// **'This card is property of Coffee Shop.'**
+  String get cardProperty;
+
+  /// No description provided for @ar.
+  ///
+  /// In en, this message translates to:
+  /// **'Arabic'**
+  String get ar;
+
+  /// No description provided for @en.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get en;
+
+  /// No description provided for @cart.
+  ///
+  /// In en, this message translates to:
+  /// **'Cart'**
+  String get cart;
+
+  /// No description provided for @moreInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'More Info'**
+  String get moreInfo;
+
+  /// No description provided for @noOrdersYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No orders yet'**
+  String get noOrdersYet;
+
+  /// No description provided for @startShoppingToSeeOrders.
+  ///
+  /// In en, this message translates to:
+  /// **'Start shopping to place your first order.'**
+  String get startShoppingToSeeOrders;
 }
 
 class _AppLocalizationsDelegate

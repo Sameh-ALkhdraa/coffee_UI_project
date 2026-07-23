@@ -40,7 +40,11 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-
+  provider:
+  google_fonts: ^6.3.1
+  shared_preferences: 
+  flutter_secure_storage: ^9.2.4
+  flip_card: ^0.7.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -65,14 +69,24 @@ flutter:
   generate: true
   # To add assets to your application, add an assets section, like this:
   assets:
+    - assets/images/products_images/beans_images/
+    - assets/images/products_images/drinks_images/
+    - assets/images/banners_images/
     - assets/images/coffeePlate.png
     - assets/images/ph_coffee-bean-fill.png
     - assets/images/coffeeDecoration.png
     - assets/images/secondLandingLogo.png
     - assets/images/thirdLandingLogo.png
     - assets/images/auth_coffee_plate.png
+    - assets/images/Intersect.png
     - assets/images/person.jpg
     - assets/images/game-icons_coffee-beans.png
+    - assets/images/
+
+  fonts:
+    - family: AppIcons
+      fonts:
+        - asset: assets/fonts/icomoon.ttf
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

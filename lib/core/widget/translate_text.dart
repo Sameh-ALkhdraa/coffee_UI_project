@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mini_ui_project/core/arabic_settings.dart';
+import 'package:mini_ui_project/core/languages/arabic_settings.dart';
 import 'package:mini_ui_project/core/resources/colors_and_styles.dart';
 
 Widget translatedText({
